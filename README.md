@@ -158,3 +158,9 @@ python src/pums_figures.py    # writes output/figures/fig7..fig9 and output/tabl
 
 1. Draft the article from the three sources (outline in progress).
 2. When the 2025 ACS 1-year PUMS lands (expected October 2026), add it to `YEARS` in `src/fetch_pums.py` and rerun.
+
+## License
+
+CC BY 4.0. Reuse anything here, with a link to the article at
+https://petervijeh.com/projects/nyc-movers and, where practical, to this repository.
+Details in [LICENSE.md](LICENSE.md). The raw Census and IRS files are public domain.
