@@ -46,9 +46,10 @@ def agi_chart(ci: pd.DataFrame) -> None:
     fig.savefig(FIG / "fig5_irs_mean_agi.png", dpi=150)
 
 
-def young_agi_chart(st: pd.DataFrame) -> None:
+def young_agi_chart(st: pd.DataFrame, shares: pd.DataFrame) -> None:
     y = st[st.age == "under 26"].pivot(index="year", columns="agi_band", values="inflow_returns")
     share = y[LOW].sum(axis=1) / y["all"]
+    s = shares.set_index("year")
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.2))
     ax = axes[0]
     bottom = pd.Series(0, index=y.index, dtype=float)
@@ -60,11 +61,15 @@ def young_agi_chart(st: pd.DataFrame) -> None:
     ax.legend(fontsize=7, ncol=2)
     ax.grid(alpha=0.3, axis="y")
     ax = axes[1]
-    ax.plot(share.index, 100 * share, marker="o")
-    ax.set_title("Share with AGI under $50,000 (nominal)")
+    ax.plot(s.index, 100 * s.ny_inmovers, marker="o", label="moved into NY State")
+    ax.plot(s.index, 100 * s.ny_nonmovers, marker="s", label="already in NY State")
+    ax.plot(s.index, 100 * s.other_states_inmovers, ls="--", label="moved into any other state")
+    ax.plot(s.index, 100 * s.other_states_nonmovers, ls="--", label="already in other states")
+    ax.set_title("Share of under-26 filers with AGI under $50,000 (nominal)")
     ax.set_ylabel("percent")
-    ax.set_ylim(0, 100)
+    ax.set_ylim(50, 100)
     ax.grid(alpha=0.3)
+    ax.legend(fontsize=8)
     fig.suptitle("IRS state-level migration file; county files carry no age", fontsize=10)
     fig.tight_layout()
     fig.savefig(FIG / "fig6_irs_ny_under26_agi.png", dpi=150)
@@ -78,10 +83,12 @@ def main() -> None:
     TAB.mkdir(parents=True, exist_ok=True)
     ci = pd.read_csv(PROC / "irs_county_inflows.csv")
     st = pd.read_csv(PROC / "irs_ny_state_inflow_age_agi.csv")
+    shares = pd.read_csv(PROC / "irs_under26_low_agi_shares.csv")
+    shares.to_csv(TAB / "irs_under26_low_agi_shares.csv", index=False)
     ci[ci.geo.isin(["Manhattan", "NYC"])].to_csv(TAB / "irs_inflows_manhattan_nyc.csv", index=False)
     inflow_chart(ci)
     agi_chart(ci)
-    young_agi_chart(st)
+    young_agi_chart(st, shares)
 
 
 if __name__ == "__main__":

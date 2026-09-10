@@ -8,6 +8,8 @@ and reported separately.
 Outputs (data/processed/):
   irs_county_inflows.csv           inflows to each borough and to NYC from outside NYC, by year
   irs_ny_state_inflow_age_agi.csv  inflows to New York State by age of filer and AGI band
+  irs_under26_low_agi_shares.csv   share of under-26 filers with AGI under $50k: NY in-movers, NY
+                                   non-movers, in-movers to other states, non-movers elsewhere
 """
 from pathlib import Path
 import pandas as pd
@@ -108,12 +110,41 @@ def ny_state_age_agi() -> pd.DataFrame:
     return pd.DataFrame(rows).sort_values(["age", "agi_stub", "year"])
 
 
+def under26_low_agi_shares() -> pd.DataFrame:
+    low = [1, 2, 3]
+    rows = []
+    for code in YEARS:
+        df = pd.read_csv(RAW / f"{code}inmigall.csv", dtype=str, encoding="latin-1")
+        df["statefips"] = df.statefips.str.strip().str.zfill(2)
+        df["agi_stub"] = df.agi_stub.astype(int)
+        ny, other = df[df.statefips == "36"], df[df.statefips != "36"]
+
+        def share(d: pd.DataFrame, col: str) -> float:
+            return d[d.agi_stub.isin(low)][col].astype(float).sum() / d[d.agi_stub == 0][col].astype(float).sum()
+
+        rows.append(
+            dict(
+                year=year2(code),
+                ny_inmovers=share(ny, "inflow_n1_1"),
+                ny_nonmovers=share(ny, "nonmig_n1_1"),
+                other_states_inmovers=share(other, "inflow_n1_1"),
+                other_states_nonmovers=share(other, "nonmig_n1_1"),
+            )
+        )
+    out = pd.DataFrame(rows)
+    out["ny_gap"] = out.ny_inmovers - out.ny_nonmovers
+    out["other_states_gap"] = out.other_states_inmovers - out.other_states_nonmovers
+    return out.round(4)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     ci = county_inflows()
     ci.to_csv(OUT / "irs_county_inflows.csv", index=False)
     st = ny_state_age_agi()
     st.to_csv(OUT / "irs_ny_state_inflow_age_agi.csv", index=False)
+    shares = under26_low_agi_shares()
+    shares.to_csv(OUT / "irs_under26_low_agi_shares.csv", index=False)
 
     cols = ["year", "inflow_returns", "inflow_people", "people_per_return", "mean_agi_in_2023usd", "inflow_per_100_resident_returns"]
     for geo in ["Manhattan", "NYC"]:
@@ -123,6 +154,9 @@ def main() -> None:
     young = st[(st.age == "under 26")].pivot(index="year", columns="agi_band", values="inflow_returns")
     print("NY State inflow returns, filer under 26, by AGI band")
     print(young[["all", "$1-10k", "$10-25k", "$25-50k", "$50-75k", "$75-100k", "$100-200k", "$200k+"]].to_string())
+    print()
+    print("Share of under-26 filers with AGI under $50k (percent)")
+    print((100 * shares.set_index("year")).round(1).to_string())
 
 
 if __name__ == "__main__":
