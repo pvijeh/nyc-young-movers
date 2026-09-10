@@ -35,7 +35,7 @@ Citywide the same window went from +74,600 to +74,900 to +92,800. Men look the s
 | PEP vintage 2025, county by age and sex | 2020-2025 | 5-year groups | `data/raw/CC-EST2025-AGESEX-36.csv` |
 | PEP vintage 2025, county by single year of age and sex | 2020-2025 | single year | `data/raw/cc-est2025-syasex-36.csv` |
 
-Single year of age for 2010-2019 exists only through the Census API (`pep/charage`), which now requires a free API key. With a key, `annual_cohort.csv` can be extended back to 2011.
+Single year of age by county is not published for 2010-2019, in bulk files or the API (`pep/charage` stops at state level; `pep/charagegroups` gives counties in 5-year groups). So the annual series starts in 2021 and the 2010s rest on 5-year windows. The Census API key (`CENSUS_API_KEY`) is needed later for ACS PUMS.
 
 ## Run it
 
