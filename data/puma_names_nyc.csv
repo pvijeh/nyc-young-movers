@@ -1,0 +1,111 @@
+vintage,puma,name
+2010,03701,"NYC-Bronx Community District 8--Riverdale, Fieldston & Kingsbridge"
+2010,03702,"NYC-Bronx Community District 12--Wakefield, Williamsbridge & Woodlawn"
+2010,03703,"NYC-Bronx Community District 10--Co-op City, Pelham Bay & Schuylerville"
+2010,03704,"NYC-Bronx Community District 11--Pelham Parkway, Morris Park & Laconia"
+2010,03705,"NYC-Bronx Community District 3 & 6--Belmont, Crotona Park East & East Tremont"
+2010,03706,"NYC-Bronx Community District 7--Bedford Park, Fordham North & Norwood"
+2010,03707,"NYC-Bronx Community District 5--Morris Heights, Fordham South & Mount Hope"
+2010,03708,"NYC-Bronx Community District 4--Concourse, Highbridge & Mount Eden"
+2010,03709,"NYC-Bronx Community District 9--Castle Hill, Clason Point & Parkchester"
+2010,03710,"NYC-Bronx Community District 1 & 2--Hunts Point, Longwood & Melrose"
+2010,03801,"NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill"
+2010,03802,"NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem"
+2010,03803,NYC-Manhattan Community District 10--Central Harlem
+2010,03804,NYC-Manhattan Community District 11--East Harlem
+2010,03805,NYC-Manhattan Community District 8--Upper East Side
+2010,03806,NYC-Manhattan Community District 7--Upper West Side & West Side
+2010,03807,"NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District"
+2010,03808,"NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town"
+2010,03809,NYC-Manhattan Community District 3--Chinatown & Lower East Side
+2010,03810,"NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho"
+2010,03901,"NYC-Staten Island Community District 3--Tottenville, Great Kills & Annadale"
+2010,03902,NYC-Staten Island Community District 2--New Springville & South Beach
+2010,03903,"NYC-Staten Island Community District 1--Port Richmond, Stapleton & Mariner's Harbor"
+2010,04001,NYC-Brooklyn Community District 1--Greenpoint & Williamsburg
+2010,04002,NYC-Brooklyn Community District 4--Bushwick
+2010,04003,NYC-Brooklyn Community District 3--Bedford-Stuyvesant
+2010,04004,NYC-Brooklyn Community District 2--Brooklyn Heights & Fort Greene
+2010,04005,"NYC-Brooklyn Community District 6--Park Slope, Carroll Gardens & Red Hook"
+2010,04006,NYC-Brooklyn Community District 8--Crown Heights North & Prospect Heights
+2010,04007,NYC-Brooklyn Community District 16--Brownsville & Ocean Hill
+2010,04008,NYC-Brooklyn Community District 5--East New York & Starrett City
+2010,04009,NYC-Brooklyn Community District 18--Canarsie & Flatlands
+2010,04010,"NYC-Brooklyn Community District 17--East Flatbush, Farragut & Rugby"
+2010,04011,"NYC-Brooklyn Community District 9--Crown Heights South, Prospect Lefferts & Wingate"
+2010,04012,NYC-Brooklyn Community District 7--Sunset Park & Windsor Terrace
+2010,04013,NYC-Brooklyn Community District 10--Bay Ridge & Dyker Heights
+2010,04014,"NYC-Brooklyn Community District 12--Borough Park, Kensington & Ocean Parkway"
+2010,04015,NYC-Brooklyn Community District 14--Flatbush & Midwood
+2010,04016,"NYC-Brooklyn Community District 15--Sheepshead Bay, Gerritsen Beach & Homecrest"
+2010,04017,NYC-Brooklyn Community District 11--Bensonhurst & Bath Beach
+2010,04018,NYC-Brooklyn Community District 13--Brighton Beach & Coney Island
+2010,04101,NYC-Queens Community District 1--Astoria & Long Island City
+2010,04102,NYC-Queens Community District 3--Jackson Heights & North Corona
+2010,04103,"NYC-Queens Community District 7--Flushing, Murray Hill & Whitestone"
+2010,04104,"NYC-Queens Community District 11--Bayside, Douglaston & Little Neck"
+2010,04105,"NYC-Queens Community District 13--Queens Village, Cambria Heights & Rosedale"
+2010,04106,"NYC-Queens Community District 8--Briarwood, Fresh Meadows & Hillcrest"
+2010,04107,NYC-Queens Community District 4--Elmhurst & South Corona
+2010,04108,NYC-Queens Community District 6--Forest Hills & Rego Park
+2010,04109,NYC-Queens Community District 2--Sunnyside & Woodside
+2010,04110,"NYC-Queens Community District 5--Ridgewood, Glendale & Middle Village"
+2010,04111,NYC-Queens Community District 9--Richmond Hill & Woodhaven
+2010,04112,"NYC-Queens Community District 12--Jamaica, Hollis & St. Albans"
+2010,04113,NYC-Queens Community District 10--Howard Beach & Ozone Park
+2010,04114,"NYC-Queens Community District 14--Far Rockaway, Breezy Point & Broad Channel"
+2020,04103,NYC-Manhattan Community District 3--Lower East Side & Chinatown
+2020,04104,NYC-Manhattan Community District 4--Chelsea & Hell's Kitchen
+2020,04107,NYC-Manhattan Community District 7--Upper West Side
+2020,04108,NYC-Manhattan Community District 8--Upper East Side & Roosevelt Island
+2020,04109,NYC-Manhattan Community District 9--Morningside Heights & Hamilton Heights
+2020,04110,NYC-Manhattan Community District 10--Harlem
+2020,04111,NYC-Manhattan Community District 11--East Harlem
+2020,04112,NYC-Manhattan Community District 12--Washington Heights & Inwood
+2020,04121,NYC-Manhattan Community Districts 1 & 2--Financial District & Greenwich Village
+2020,04165,"NYC-Manhattan Community Districts 5 & 6--Midtown, East Midtown, & Flatiron"
+2020,04204,NYC-Bronx Community District 4--Highbridge & Concourse
+2020,04205,NYC-Bronx Community District 5--Morris Heights & Mount Hope
+2020,04207,"NYC-Bronx Community District 7--Fordham, Bedford Park, & Norwood"
+2020,04208,"NYC-Bronx Community District 8--Riverdale, Kingsbridge, & Marble Hill"
+2020,04209,NYC-Bronx Community District 9--Soundview & Parkchester
+2020,04210,NYC-Bronx Community District 10--Co-op City & Throgs Neck
+2020,04211,NYC-Bronx Community District 11--Pelham Parkway & Morris Park
+2020,04212,"NYC-Bronx Community District 12--Wakefield, Williamsbridge, & Eastchester"
+2020,04221,"NYC-Bronx Community Districts 1 & 2--Melrose, Mott Haven, Longwood, & Hunts Point"
+2020,04263,"NYC-Bronx Community Districts 3 & 6--Morrisania, Tremont, Belmont, & West Farms"
+2020,04301,NYC-Brooklyn Community District 1--Williamsburg & Greenpoint
+2020,04302,NYC-Brooklyn Community District 2--Downtown Brooklyn & Fort Greene
+2020,04303,NYC-Brooklyn Community District 3--Bedford-Stuyvesant
+2020,04304,NYC-Brooklyn Community District 4--Bushwick
+2020,04305,NYC-Brooklyn Community District 5--East New York & Cypress Hills
+2020,04306,NYC-Brooklyn Community District 6--Park Slope & Carroll Gardens
+2020,04307,NYC-Brooklyn Community District 7--Sunset Park & Windsor Terrace
+2020,04308,NYC-Brooklyn Community District 8--Crown Heights (North)
+2020,04309,NYC-Brooklyn Community District 9--Crown Heights (South)
+2020,04310,NYC-Brooklyn Community District 10--Bay Ridge & Dyker Heights
+2020,04311,NYC-Brooklyn Community District 11--Bensonhurst & Bath Beach
+2020,04312,NYC-Brooklyn Community District 12--Borough Park & Kensington
+2020,04313,NYC-Brooklyn Community District 13--Coney Island & Brighton Beach
+2020,04314,NYC-Brooklyn Community District 14--Flatbush & Midwood
+2020,04315,NYC-Brooklyn Community District 15--Sheepshead Bay & Gravesend (East)
+2020,04316,NYC-Brooklyn Community District 16--Ocean Hill & Brownsville
+2020,04317,NYC-Brooklyn Community District 17--East Flatbush
+2020,04318,NYC-Brooklyn Community District 18--Canarsie & Flatlands
+2020,04401,NYC-Queens Community District 1--Astoria & Queensbridge
+2020,04402,"NYC-Queens Community District 2--Long Island City, Sunnyside, & Woodside"
+2020,04403,NYC-Queens Community District 3--Jackson Heights & East Elmhurst
+2020,04404,NYC-Queens Community District 4--Elmhurst & Corona
+2020,04405,"NYC-Queens Community District 5--Ridgewood, Maspeth, & Middle Village"
+2020,04406,NYC-Queens Community District 6--Forest Hills & Rego Park
+2020,04407,"NYC-Queens Community District 7--Flushing, Murray Hill, & Whitestone"
+2020,04408,"NYC-Queens Community District 8--Fresh Meadows, Hillcrest, & Briarwood"
+2020,04409,"NYC-Queens Community District 9--Kew Gardens, Richmond Hill, & Woodhaven"
+2020,04410,NYC-Queens Community District 10--South Ozone Park & Howard Beach
+2020,04411,"NYC-Queens Community District 11--Auburndale, Bayside, & Douglaston"
+2020,04412,"NYC-Queens Community District 12--Jamaica, St. Albans, & Hollis"
+2020,04413,"NYC-Queens Community District 13--Queens Village, Bellerose, & Rosedale"
+2020,04414,NYC-Queens Community District 14--The Rockaways
+2020,04501,NYC-Staten Island Community District 1--North Shore
+2020,04502,NYC-Staten Island Community District 2--Mid-Island
+2020,04503,NYC-Staten Island Community District 3--South Shore

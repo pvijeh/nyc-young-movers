@@ -1,0 +1,111 @@
+vintage,puma,borough,cd,neighborhood
+2010,3701,Bronx,Bronx CD 8,"Riverdale, Kingsbridge, & Marble Hill"
+2010,3702,Bronx,Bronx CD 12,"Wakefield, Williamsbridge, & Eastchester"
+2010,3703,Bronx,Bronx CD 10,Co-op City & Throgs Neck
+2010,3704,Bronx,Bronx CD 11,Pelham Parkway & Morris Park
+2010,3705,Bronx,Bronx CD 3-6,"Morrisania, Tremont, Belmont, & West Farms"
+2010,3706,Bronx,Bronx CD 7,"Fordham, Bedford Park, & Norwood"
+2010,3707,Bronx,Bronx CD 5,Morris Heights & Mount Hope
+2010,3708,Bronx,Bronx CD 4,Highbridge & Concourse
+2010,3709,Bronx,Bronx CD 9,Soundview & Parkchester
+2010,3710,Bronx,Bronx CD 1-2,"Melrose, Mott Haven, Longwood, & Hunts Point"
+2010,3801,Manhattan,Manhattan CD 12,Washington Heights & Inwood
+2010,3802,Manhattan,Manhattan CD 9,Morningside Heights & Hamilton Heights
+2010,3803,Manhattan,Manhattan CD 10,Harlem
+2010,3804,Manhattan,Manhattan CD 11,East Harlem
+2010,3805,Manhattan,Manhattan CD 8,Upper East Side & Roosevelt Island
+2010,3806,Manhattan,Manhattan CD 7,Upper West Side
+2010,3807,Manhattan,Manhattan CD 4-5-6,"Chelsea, Hell's Kitchen & Midtown"
+2010,3808,Manhattan,Manhattan CD 4-5-6,"Chelsea, Hell's Kitchen & Midtown"
+2010,3809,Manhattan,Manhattan CD 3,Lower East Side & Chinatown
+2010,3810,Manhattan,Manhattan CD 1-2,Financial District & Greenwich Village
+2010,3901,Staten Island,Staten Island CD 3,South Shore
+2010,3902,Staten Island,Staten Island CD 2,Mid-Island
+2010,3903,Staten Island,Staten Island CD 1,North Shore
+2010,4001,Brooklyn,Brooklyn CD 1,Williamsburg & Greenpoint
+2010,4002,Brooklyn,Brooklyn CD 4,Bushwick
+2010,4003,Brooklyn,Brooklyn CD 3,Bedford-Stuyvesant
+2010,4004,Brooklyn,Brooklyn CD 2,Downtown Brooklyn & Fort Greene
+2010,4005,Brooklyn,Brooklyn CD 6,Park Slope & Carroll Gardens
+2010,4006,Brooklyn,Brooklyn CD 8,Crown Heights (North)
+2010,4007,Brooklyn,Brooklyn CD 16,Ocean Hill & Brownsville
+2010,4008,Brooklyn,Brooklyn CD 5,East New York & Cypress Hills
+2010,4009,Brooklyn,Brooklyn CD 18,Canarsie & Flatlands
+2010,4010,Brooklyn,Brooklyn CD 17,East Flatbush
+2010,4011,Brooklyn,Brooklyn CD 9,Crown Heights (South)
+2010,4012,Brooklyn,Brooklyn CD 7,Sunset Park & Windsor Terrace
+2010,4013,Brooklyn,Brooklyn CD 10,Bay Ridge & Dyker Heights
+2010,4014,Brooklyn,Brooklyn CD 12,Borough Park & Kensington
+2010,4015,Brooklyn,Brooklyn CD 14,Flatbush & Midwood
+2010,4016,Brooklyn,Brooklyn CD 15,Sheepshead Bay & Gravesend (East)
+2010,4017,Brooklyn,Brooklyn CD 11,Bensonhurst & Bath Beach
+2010,4018,Brooklyn,Brooklyn CD 13,Coney Island & Brighton Beach
+2010,4101,Queens,Queens CD 1,Astoria & Queensbridge
+2010,4102,Queens,Queens CD 3,Jackson Heights & East Elmhurst
+2010,4103,Queens,Queens CD 7,"Flushing, Murray Hill, & Whitestone"
+2010,4104,Queens,Queens CD 11,"Auburndale, Bayside, & Douglaston"
+2010,4105,Queens,Queens CD 13,"Queens Village, Bellerose, & Rosedale"
+2010,4106,Queens,Queens CD 8,"Fresh Meadows, Hillcrest, & Briarwood"
+2010,4107,Queens,Queens CD 4,Elmhurst & Corona
+2010,4108,Queens,Queens CD 6,Forest Hills & Rego Park
+2010,4109,Queens,Queens CD 2,"Long Island City, Sunnyside, & Woodside"
+2010,4110,Queens,Queens CD 5,"Ridgewood, Maspeth, & Middle Village"
+2010,4111,Queens,Queens CD 9,"Kew Gardens, Richmond Hill, & Woodhaven"
+2010,4112,Queens,Queens CD 12,"Jamaica, St. Albans, & Hollis"
+2010,4113,Queens,Queens CD 10,South Ozone Park & Howard Beach
+2010,4114,Queens,Queens CD 14,The Rockaways
+2020,4103,Manhattan,Manhattan CD 3,Lower East Side & Chinatown
+2020,4104,Manhattan,Manhattan CD 4-5-6,"Chelsea, Hell's Kitchen & Midtown"
+2020,4107,Manhattan,Manhattan CD 7,Upper West Side
+2020,4108,Manhattan,Manhattan CD 8,Upper East Side & Roosevelt Island
+2020,4109,Manhattan,Manhattan CD 9,Morningside Heights & Hamilton Heights
+2020,4110,Manhattan,Manhattan CD 10,Harlem
+2020,4111,Manhattan,Manhattan CD 11,East Harlem
+2020,4112,Manhattan,Manhattan CD 12,Washington Heights & Inwood
+2020,4121,Manhattan,Manhattan CD 1-2,Financial District & Greenwich Village
+2020,4165,Manhattan,Manhattan CD 4-5-6,"Chelsea, Hell's Kitchen & Midtown"
+2020,4204,Bronx,Bronx CD 4,Highbridge & Concourse
+2020,4205,Bronx,Bronx CD 5,Morris Heights & Mount Hope
+2020,4207,Bronx,Bronx CD 7,"Fordham, Bedford Park, & Norwood"
+2020,4208,Bronx,Bronx CD 8,"Riverdale, Kingsbridge, & Marble Hill"
+2020,4209,Bronx,Bronx CD 9,Soundview & Parkchester
+2020,4210,Bronx,Bronx CD 10,Co-op City & Throgs Neck
+2020,4211,Bronx,Bronx CD 11,Pelham Parkway & Morris Park
+2020,4212,Bronx,Bronx CD 12,"Wakefield, Williamsbridge, & Eastchester"
+2020,4221,Bronx,Bronx CD 1-2,"Melrose, Mott Haven, Longwood, & Hunts Point"
+2020,4263,Bronx,Bronx CD 3-6,"Morrisania, Tremont, Belmont, & West Farms"
+2020,4301,Brooklyn,Brooklyn CD 1,Williamsburg & Greenpoint
+2020,4302,Brooklyn,Brooklyn CD 2,Downtown Brooklyn & Fort Greene
+2020,4303,Brooklyn,Brooklyn CD 3,Bedford-Stuyvesant
+2020,4304,Brooklyn,Brooklyn CD 4,Bushwick
+2020,4305,Brooklyn,Brooklyn CD 5,East New York & Cypress Hills
+2020,4306,Brooklyn,Brooklyn CD 6,Park Slope & Carroll Gardens
+2020,4307,Brooklyn,Brooklyn CD 7,Sunset Park & Windsor Terrace
+2020,4308,Brooklyn,Brooklyn CD 8,Crown Heights (North)
+2020,4309,Brooklyn,Brooklyn CD 9,Crown Heights (South)
+2020,4310,Brooklyn,Brooklyn CD 10,Bay Ridge & Dyker Heights
+2020,4311,Brooklyn,Brooklyn CD 11,Bensonhurst & Bath Beach
+2020,4312,Brooklyn,Brooklyn CD 12,Borough Park & Kensington
+2020,4313,Brooklyn,Brooklyn CD 13,Coney Island & Brighton Beach
+2020,4314,Brooklyn,Brooklyn CD 14,Flatbush & Midwood
+2020,4315,Brooklyn,Brooklyn CD 15,Sheepshead Bay & Gravesend (East)
+2020,4316,Brooklyn,Brooklyn CD 16,Ocean Hill & Brownsville
+2020,4317,Brooklyn,Brooklyn CD 17,East Flatbush
+2020,4318,Brooklyn,Brooklyn CD 18,Canarsie & Flatlands
+2020,4401,Queens,Queens CD 1,Astoria & Queensbridge
+2020,4402,Queens,Queens CD 2,"Long Island City, Sunnyside, & Woodside"
+2020,4403,Queens,Queens CD 3,Jackson Heights & East Elmhurst
+2020,4404,Queens,Queens CD 4,Elmhurst & Corona
+2020,4405,Queens,Queens CD 5,"Ridgewood, Maspeth, & Middle Village"
+2020,4406,Queens,Queens CD 6,Forest Hills & Rego Park
+2020,4407,Queens,Queens CD 7,"Flushing, Murray Hill, & Whitestone"
+2020,4408,Queens,Queens CD 8,"Fresh Meadows, Hillcrest, & Briarwood"
+2020,4409,Queens,Queens CD 9,"Kew Gardens, Richmond Hill, & Woodhaven"
+2020,4410,Queens,Queens CD 10,South Ozone Park & Howard Beach
+2020,4411,Queens,Queens CD 11,"Auburndale, Bayside, & Douglaston"
+2020,4412,Queens,Queens CD 12,"Jamaica, St. Albans, & Hollis"
+2020,4413,Queens,Queens CD 13,"Queens Village, Bellerose, & Rosedale"
+2020,4414,Queens,Queens CD 14,The Rockaways
+2020,4501,Staten Island,Staten Island CD 1,North Shore
+2020,4502,Staten Island,Staten Island CD 2,Mid-Island
+2020,4503,Staten Island,Staten Island CD 3,South Shore
